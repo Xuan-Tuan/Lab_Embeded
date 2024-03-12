@@ -1,0 +1,176 @@
+e������     : 40MHz[0m
+[0;32mI (42) boot.esp32�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar 12 2024 18:32:31[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.1[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09fech ( 40940) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=0001a014 vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (120) esp_image: segment 2: paddr=0001c270 vaddr=40080000 size=03da8h ( 15784) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14774h ( 83828) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=0003479c vaddr=40083da8 size=08974h ( 35188) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     Lab01_Gr7[0m
+[0;32mI (209) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     Mar 12 2024 18:32:02[0m
+[0;32mI (220) cpu_start: ELF file SHA256:  2cce818b6...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (230) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2B18 len 0002D4E8 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (270) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (284) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (291) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (305) main_task: Started on CPU0[0m
+[0;32mI (315) main_task: Calling app_main()[0m
+[0;32mI (315) example: Example configured to blink GPIO LED![0m
+[0;32mI (315) gpio: GPIO[5]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (325) example: Turning the LED OFF![0m
+[0;32mI (1325) example: Turning the LED ON![0m
+[0;32mI (2325) example: Turning the LED OFF![0m
+[0;32mI (3325) example: Turning the LED ON![0m
+[0;32mI (4325) example: Turning the LED OFF![0m
+[0;32mI (5325) example: Turning the LED ON![0m
+[0;32mI (6325) example: Turning the LED OFF![0m
+[0;32mI (7325) example: Turning the LED ON![0m
+[0;32mI (8325) example: Turning the LED OFF![0m
+[0;32mI (9325) example: Turning the LED ON![0m
+[0;32mI (10325) example: Turning the LED OFF![0m
+[0;32mI (11325) example: Turning the LED ON![0m
+[0;32mI (12325) example: Turning the LED OFF![0m
+[0;32mI (13325) example: Turning the LED ON![0m
+[0;32mI (14325) example: Turning the LED OFF![0m
+[0;32mI (15325) example: Turning the LED ON![0m
+[0;32mI (16325) example: Turning the LED OFF![0m
+[0;32mI (17325) example: Turning the LED ON![0m
+[0;32mI (18325) example: Turning the LED OFF![0m
+[0;32mI (19325) example: Turning the LED ON![0m
+[0;32mI (20325) example: Turning the LED OFF![0m
+[0;32mI (21325) example: Turning the LED ON![0m
+[0;32mI (22325) example: Turning the LED OFF![0m
+[0;32mI (23325) example: Turning the LED ON![0m
+[0;32mI (24325) example: Turning the LED OFF![0m
+[0;32mI (25325) example: Turning the LED ON![0m
+[0;32mI (26325) example: Turning the LED OFF![0m
+[0;32mI (27325) example: Turning the LED ON![0m
+[0;32mI (28325) example: Turning the LED OFF![0m
+[0;32mI (29325) example: Turning the LED ON![0m
+[0;32mI (30325) example: Turning the LED OFF![0m
+[0;32mI (31325) example: Turning the LED ON![0m
+[0;32mI (32325) example: Turning the LED OFF![0m
+[0;32mI (33325) example: Turning the LED ON![0m
+[0;32mI (34325) example: Turning the LED OFF![0m
+[0;32mI (35325) example: Turning the LED ON![0m
+[0;32mI (36325) example: Turning the LED OFF![0m
+[0;32mI (37325) example: Turning the LED ON![0m
+[0;32mI (38325) example: Turning the LED OFF![0m
+[0;32mI (39325) example: Turning the LED ON![0m
+[0;32mI (40325) example: Turning the LED OFF![0m
+[0;32mI (41325) example: Turning the LED ON![0m
+[0;32mI (42325) example: Turning the LED OFF![0m
+[0;32mI (43325) example: Turning the LED ON![0m
+[0;32mI (44325) example: Turning the LED OFF![0m
+[0;32mI (45325) example: Turning the LED ON![0m
+[0;32mI (46325) example: Turning the LED OFF![0m
+[0;32mI (47325) example: Turning the LED ON![0m
+[0;32mI (48325) example: Turning the LED OFF![0m
+[0;32mI (49325) example: Turning the LED ON![0m
+[0;32mI (50325) example: Turning the LED OFF![0m
+[0;32mI (51325) example: Turning the LED ON![0m
+[0;32mI (52325) example: Turning the LED OFF![0m
+[0;32mI (53325) example: Turning the LED ON![0m
+[0;32mI (54325) example: Turning the LED OFF![0m
+[0;32mI (55325) example: Turning the LED ON![0m
+[0;32mI (56325) example: Turning the LED OFF![0m
+[0;32mI (57325) example: Turning the LED ON![0m
+[0;32mI (58325) example: Turning the LED OFF![0m
+[0;32mI (59325) example: Turning the LED ON![0m
+[0;32mI (60325) example: Turning the LED OFF![0m
+[0;32mI (61325) example: Turning the LED ON![0m
+[0;32mI (62325) example: Turning the LED OFF![0m
+[0;32mI (63325) example: Turning the LED ON![0m
+[0;32mI (64325) example: Turning the LED OFF![0m
+[0;32mI (65325) example: Turning the LED ON![0m
+[0;32mI (66325) example: Turning the LED OFF![0m
+[0;32mI (67325) example: Turning the LED ON![0m
+[0;32mI (68325) example: Turning the LED OFF![0m
+[0;32mI (69325) example: Turning the LED ON![0m
+[0;32mI (70325) example: Turning the LED OFF![0m
+[0;32mI (71325) example: Turning the LED ON![0m
+[0;32mI (72325) example: Turning the LED OFF![0m
+[0;32mI (73325) example: Turning the LED ON![0m
+[0;32mI (74325) example: Turning the LED OFF![0m
+[0;32mI (75325) example: Turning the LED ON![0m
+[0;32mI (76325) example: Turning the LED OFF![0m
+[0;32mI (77325) example: Turning the LED ON![0m
+[0;32mI (78325) example: Turning the LED OFF![0m
+[0;32mI (79325) example: Turning the LED ON![0m
+[0;32mI (80325) example: Turning the LED OFF![0m
+[0;32mI (81325) example: Turning the LED ON![0m
+[0;32mI (82325) example: Turning the LED OFF![0m
+[0;32mI (83325) example: Turning the LED ON![0m
+[0;32mI (84325) example: Turning the LED OFF![0m
+[0;32mI (85325) example: Turning the LED ON![0m
+[0;32mI (86325) example: Turning the LED OFF![0m
+[0;32mI (87325) example: Turning the LED ON![0m
+[0;32mI (88325) example: Turning the LED OFF![0m
+[0;32mI (89325) example: Turning the LED ON![0m
+[0;32mI (90325) example: Turning the LED OFF![0m
+[0;32mI (91325) example: Turning the LED ON![0m
+[0;32mI (92325) example: Turning the LED OFF![0m
+[0;32mI (93325) example: Turning the LED ON![0m
+[0;32mI (94325) example: Turning the LED OFF![0m
+[0;32mI (95325) example: Turning the LED ON![0m
+[0;32mI (96325) example: Turning the LED OFF![0m
+[0;32mI (97325) example: Turning the LED ON![0m
+[0;32mI (98325) example: Turning the LED OFF![0m
+[0;32mI (99325) example: Turning the LED ON![0m
+[0;32mI (100325) example: Turning the LED OFF![0m
+[0;32mI (101325) example: Turning the LED ON![0m
+[0;32mI (102325) example: Turning the LED OFF![0m
+[0;32mI (103325) example: Turning the LED ON![0m
+[0;32mI (104325) example: Turning the LED OFF![0m
+[0;32mI (105325) example: Turning the LED ON![0m
+[0;32mI (106325) example: Turning the LED OFF![0m
+[0;32mI (107325) example: Turning the LED ON![0m
+[0;32mI (108325) example: Turning the LED OFF![0m
+[0;32mI (109325) example: Turning the LED ON![0m
+[0;32mI (110325) example: Turning the LED OFF![0m
+[0;32mI (111325) example: Turning the LED ON![0m
+[0;32mI (112325) example: Turning the LED OFF![0m
+[0;32mI (113325) example: Turning the LED ON![0m
+[0;32mI (114325) example: Turning the LED OFF![0m
+[0;32mI (115325) example: Turning the LED ON![0m
+[0;32mI (116325) example: Turning the LED OFF![0m
+[0;32mI (117325) example: Turning the LED ON![0m
