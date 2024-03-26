@@ -1,0 +1,205 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM5 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0;33m0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008170a: panic_abort at D:/App/v5.2/esp-idf/components/esp_system/panic.c:472
+0x40086a4d: esp_system_abort at D:/App/v5.2/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008c6e1: abort at D:/App/v5.2/esp-idf/components/newlib/abort.c:38
+0x40086a43: _esp_error_check_failed at D:/App/v5.2/esp-idf/components/esp_system/esp_err.c:50
+0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+0x400e5b20: main_task at D:/App/v5.2/esp-idf/components/freertos/app_startup.c:208
+0x400874f5: vPortTaskWrapper at D:/App/v5.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5842: app_main at D:/Code/Test/Lab02_As01/main/i2c_example_main.c:227 (discriminator 1)
+[0m
+[0m
